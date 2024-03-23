@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Adjusted height to 100% of viewport height */
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black; /* Reduced border thickness */
+    padding: 20px; /* Reduced padding */
+    max-width: 400px; /* Added maximum width to limit form width */
+    width: 100%; /* Ensuring the form takes full width of its container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Improved input field border */
+    border-radius: 5px; /* Added border radius */
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+.container form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Changed background color to blue */
+    color: #fff; /* Changed text color to white */
+    border: none;
+    border-radius: 5px; /* Added border radius */
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+p{
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    /* align-items: center; */
+}
